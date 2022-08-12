@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro component with sign-up form</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="brandContent">
+                <h1>Learn to code by watching others</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae consequatur sequi aspernatur ab a. Ratione minima perspiciatis maxime eligendi unde.</p>
+            </div>
+            <div class="brandForm">
+                <div class="pricing">
+                    <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+                </div>
+                <div class="form">
+                    <form id="form" novalidate action="./index.html" method="get">
+                        <div class="inpt">
+                            <input type="text" name="firstName" id="first-name" placeholder="First Name">
+                            <img class="errIcon">
+                            <div class="errText"></div>
+                        </div>
+                        <div class="inpt">
+                            <input type="text" name="lastName" id="last-name" placeholder="Last Name">
+                            <img class="errIcon">
+                            <div class="errText"></div>
+                        </div>
+                        <div class="inpt">
+                            <input type="email" name="email" id="email" placeholder="Email Adress">
+                            <img class="errIcon">
+                            <div class="errText"></div>
+                        </div>
+                        <div class="inpt">
+                            <input type="password" name="password" id="password" placeholder="Password">
+                            <img class="errIcon">
+                            <div class="errText"></div>
+                        </div>
+                        <button type="submit" id="submit">Claim your free trail</button>
+                    </form>
+                    <p>By clicking the button you agree to our <a href="#">Terms and Services</a></p>
+            </div>
+        </section>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>
